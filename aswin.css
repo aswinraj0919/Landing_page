@@ -63,7 +63,16 @@ p {
 .btn.blank_btn.top::after{
     display: none;
 }
-
+.Product::after{
+    content: '\e5c5';
+    font-family: Material Symbols Outlined;
+    font-size: 10px;
+}
+.open::after{
+    content: '\e5c5';
+    font-family: Material Symbols Outlined;
+    font-size: 10px;
+}
 
 .cart.border_btn {
     border-radius: 25px;
