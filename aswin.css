@@ -63,6 +63,9 @@ p {
 .btn.blank_btn.top::after{
     display: none;
 }
+.Product{
+    gap: 10px;
+}
 .Product::after{
     content: '\e5c5';
     font-family: Material Symbols Outlined;
@@ -129,7 +132,6 @@ header {
 .site_nav ul li a {
     text-decoration: none;
     padding: 5px 12px;
-    display: block;
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;

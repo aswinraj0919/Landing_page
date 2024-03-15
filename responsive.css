@@ -71,6 +71,15 @@
     .site_nav ul li .blank_bttn {
         display: none;
     }
+    .Product{
+        gap: 10px;
+    }
+    .open{
+        gap: 10px;
+    }
+    .site_nav ul li a {
+        display: flex;
+    }
 }
 
 @media screen and (max-width:780px) {
