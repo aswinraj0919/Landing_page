@@ -50,28 +50,34 @@ p {
     padding-left: 0;
 
 }
-.btn.blank_btn::after{
+
+.btn.blank_btn::after {
     content: '\e5e1';
     font-family: Material Symbols Outlined;
     font-size: 20px;
 }
-.btn.cart.border_btn::after{
+
+.btn.cart.border_btn::after {
     content: '\e5e1';
     font-family: Material Symbols Outlined;
     font-size: 20px;
 }
-.btn.blank_btn.top::after{
+
+.btn.blank_btn.top::after {
     display: none;
 }
-.Product{
+
+.Product {
     gap: 10px;
 }
-.Product::after{
+
+.Product::after {
     content: '\e5c5';
     font-family: Material Symbols Outlined;
     font-size: 10px;
 }
-.open::after{
+
+.open::after {
     content: '\e5c5';
     font-family: Material Symbols Outlined;
     font-size: 10px;
@@ -83,7 +89,7 @@ p {
 
 header {
     background: #FFF2F3;
-    padding:50px 0 0 0;
+    padding: 50px 0 0 0;
 
 }
 
@@ -99,14 +105,17 @@ header {
     background-color: #96BB7C;
     color: #fff;
 }
-.btn.filled_btn.top{
-    padding: 10px ;
+
+.btn.filled_btn.top {
+    padding: 10px;
 }
-.btn.filled_btn.top::after{
+
+.btn.filled_btn.top::after {
     content: '\e941';
     font-family: Material Symbols Outlined;
     font-size: 20px;
 }
+
 .container {
     max-width: 1050px;
     margin: 0 auto;
@@ -158,7 +167,6 @@ header {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    max-width: 50%;
 }
 
 .brand_text p {
@@ -167,7 +175,6 @@ header {
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.20000000298023224px;
-    text-align: left;
 
 }
 
@@ -246,7 +253,7 @@ img {
     flex-direction: column;
     justify-content: space-between;
     gap: 20px;
-margin-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .review_grids {
@@ -285,7 +292,7 @@ margin-bottom: 100px;
     line-height: 24px;
     letter-spacing: 0.10000000149011612px;
     text-align: center;
-width: 150px;
+    width: 150px;
 }
 
 .review_grid h6 {
@@ -468,7 +475,6 @@ input {
     font-weight: 700;
     line-height: 80px;
     letter-spacing: 0.20000000298023224px;
-    text-align: left;
 
 }
 
@@ -661,13 +667,15 @@ input {
     background: #E74040;
     padding: 0 10px;
     top: 20px;
-    left: 20px;height: fit-content;
+    left: 20px;
+    height: fit-content;
     max-width: 150px;
     border-radius: 3px;
-    
-    
+
+
 }
-.label h4{
+
+.label h4 {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -723,7 +731,8 @@ input {
 
 .rate {
     display: flex;
-    gap: 1%;font-size: 16px;
+    gap: 1%;
+    font-size: 16px;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.10000000149011612px;
@@ -733,7 +742,7 @@ input {
 .rate h3 {
     color: #BDBDBD;
     font-family: Montserrat;
-    
+
 }
 
 .rate span {
@@ -849,5 +858,3 @@ input {
     visibility: hidden;
     position: fixed;
 }
-
-

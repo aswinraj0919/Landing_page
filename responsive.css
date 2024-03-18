@@ -80,6 +80,10 @@
     .site_nav ul li a {
         display: flex;
     }
+    .brand_text {
+        max-width: 50%;
+    }
+    
 }
 
 @media screen and (max-width:780px) {
@@ -270,7 +274,7 @@
         object-fit: contain;
 
     }
-
+    
     .ade_img {
         width: 100%;
     }
