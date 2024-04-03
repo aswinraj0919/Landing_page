@@ -101,6 +101,7 @@
 
     .brand_text h1 {
         text-align: center;
+        line-height: normal;
     }
 
     .brand_text p {
@@ -174,7 +175,7 @@
         position: fixed;
         padding: 10px 0;
         width: 100%;
-        z-index: 999;
+        z-index: 1;
     }
 
     .brand {
@@ -198,6 +199,7 @@
         height: 250px;
         width: 200px;
         padding: 10px;
+        height: 100vh;
     }
 
     #slid_menu:checked~.site_nav {
@@ -288,7 +290,9 @@
         width: 90%;
 
     }
-
+    .title_bar h1 {
+        font-size: 20px;
+    }
     .title h2 {
         font-size: 25px;
         gap: 10px;
@@ -329,6 +333,10 @@
     .staffs_grids i {
         font-size: 15px;
     }
+    .btn{
+        padding: 10px 20px;
+    }
+    .blank_btn{padding-left: 0;}
 
     .intro_grids {
         grid-template-columns: repeat(1, 1fr);

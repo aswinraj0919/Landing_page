@@ -14,7 +14,9 @@ p {
 .section {
     padding: 50px 0;
 }
-
+.container.brand{
+max-width: 1300PX;
+}
 .btn {
     padding: 15px 40px;
     font-size: 15px;
@@ -71,17 +73,7 @@ p {
     gap: 10px;
 }
 
-.Product::after {
-    content: '\e5c5';
-    font-family: Material Symbols Outlined;
-    font-size: 10px;
-}
 
-.open::after {
-    content: '\e5c5';
-    font-family: Material Symbols Outlined;
-    font-size: 10px;
-}
 
 .cart.border_btn {
     border-radius: 25px;
@@ -150,7 +142,12 @@ header {
 
 
 }
-
+.site_nav ul li a label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
 .title_bar {
     display: flex;
     align-items: center;
