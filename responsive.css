@@ -214,6 +214,7 @@
         visibility: hidden;
         position: absolute;
         opacity: 0;
+        top: -500px;
         left: -10px;
         padding-left: 20px;
 
@@ -222,7 +223,8 @@
     #Product_dropdown:checked~.dropdown {
         visibility: visible;
         position: relative;
-        transition: all .2s ease-in-out;
+        top: 0;
+        transition: left .2s ease-in-out;
         opacity: 1;
         left: 0px;
 
@@ -232,14 +234,16 @@
         visibility: hidden;
         position: absolute;
         left: -50px;
+        top: -500px;
         padding-left: 50px;
     }
 
     #open_dropdown:checked~.sec_dropdown {
         visibility: visible;
         position: relative;
-        transition: all .2s ease-in-out;
+        transition: left .2s ease-in-out;
         opacity: 1;
+        top: 0;
         left: -20px;
     }
 
