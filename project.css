@@ -17,6 +17,10 @@ p {
 .container.brand{
 max-width: 1300PX;
 }
+.baner_section{
+    background: #FFF2F3;
+
+}
 .btn {
     padding: 15px 40px;
     font-size: 15px;

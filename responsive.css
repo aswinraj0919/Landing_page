@@ -31,13 +31,14 @@
         border-radius: 10px;
         opacity: 0;
         top: 80px;
+        width: 100px;
         padding: 10px;
     }
 
-    .dropdown a:hover {
-        background-color: white;
+    .dropdown li:hover{
         color: black;
         border-radius: 10px;
+        width: 100%;
     }
 
     .site_nav ul li:hover .dropdown {
@@ -52,18 +53,18 @@
         position: absolute;
         left: 70px;
         top: 10px;
-        width: 100px;
+        width: 90px;
         opacity: 0;
         background-color: #96BB7C;
         border-radius: 10px;
         padding: 10px;
     }
 
-    .dropdown ul li:hover .sec_dropdown {
+    .dropdown:hover .sec_dropdown {
         visibility: visible;
         transition: all .2s ease-in-out;
         opacity: 1;
-        left: 79px;
+        left: 120px;
 
     }
 
@@ -243,8 +244,9 @@
     }
 
     .site_nav ul li .blank_bttn {
-        background-color: rgb(102, 0, 255);
+        background-color: #FFF2F3;
         width: 125px;
+        color: black;
     }
 
     .site_nav a:hover {
