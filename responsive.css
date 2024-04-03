@@ -210,7 +210,7 @@
         visibility: visible;
         transition: left .2s ease-in-out;
         opacity: 1;
-        top: 0;
+        top: 50px;
         left: 0px;
     }
 
