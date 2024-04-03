@@ -31,14 +31,17 @@
         border-radius: 10px;
         opacity: 0;
         top: 80px;
-        width: 100px;
-        padding: 10px;
+        width: 120px;
+        padding: 10px 0;
     }
-
+    .dropdown li{
+        width: 100px;
+        padding: 0 10px;
+    }
     .dropdown li:hover{
         color: black;
         border-radius: 10px;
-        width: 100%;
+        
     }
 
     .site_nav ul li:hover .dropdown {
@@ -60,7 +63,7 @@
         padding: 10px;
     }
 
-    .dropdown:hover .sec_dropdown {
+    .dropdown li:hover .sec_dropdown {
         visibility: visible;
         transition: all .2s ease-in-out;
         opacity: 1;
