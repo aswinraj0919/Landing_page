@@ -7,8 +7,6 @@
 p {
     color: #737373;
     font-weight: 600;
-
-
 }
 
 .section {
@@ -114,7 +112,7 @@ header {
 
 .container {
     max-width: 1050px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 0px 10px;
 }
 
